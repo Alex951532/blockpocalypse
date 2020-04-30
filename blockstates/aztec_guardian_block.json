@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      { "model": "blockpocalypse:block/aztec_guardian_block" }
+    ]
+  }
+}

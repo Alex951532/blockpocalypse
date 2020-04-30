@@ -1,0 +1,147 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:blocks/emerald_octagon",
+        "emerald_octagon": "minecraft:blocks/emerald_octagon"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 4.5, 0, 0 ], 
+            "to": [ 11.5, 16, 10 ], 
+            "faces": {
+                "north": { "texture": "#emerald_octagon", "uv": [ 0, 0, 7, 16 ] },
+                "east": { "texture": "#emerald_octagon", "uv": [ 0, 0, 10, 16 ] },
+                "west": { "texture": "#emerald_octagon", "uv": [ 0, 0, 10, 16 ] },
+                "up": { "texture": "#emerald_octagon", "uv": [ 1, 0, 8, 10 ] },
+                "down": { "texture": "#emerald_octagon", "uv": [ 7, 6, 14, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 5.2, 0, -0.1 ], 
+            "to": [ 11.2, 16, 6.9 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "east": { "texture": "#emerald_octagon", "uv": [ 0, 0, 7, 16 ] },
+                "south": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "west": { "texture": "#emerald_octagon", "uv": [ 0, 0, 7, 16 ] },
+                "up": { "texture": "#emerald_octagon", "uv": [ 5, 0, 11, 7 ] },
+                "down": { "texture": "#emerald_octagon", "uv": [ 9, 9, 15, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 4.8, 0, -0.2 ], 
+            "to": [ 10.8, 16, 5.8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "east": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "south": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "west": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "up": { "texture": "#emerald_octagon", "uv": [ 2, 0, 8, 6 ] },
+                "down": { "texture": "#emerald_octagon", "uv": [ 0, 10, 6, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 4.5, 0, 10 ], 
+            "to": [ 11.5, 16, 16 ], 
+            "faces": {
+                "east": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "south": { "texture": "#emerald_octagon", "uv": [ 0, 0, 7, 16 ] },
+                "west": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "up": { "texture": "#emerald_octagon", "uv": [ 1, 10, 8, 16 ] },
+                "down": { "texture": "#emerald_octagon", "uv": [ 5, 0, 12, 6 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 5.2, 0, 11.1 ], 
+            "to": [ 11.2, 16, 16.1 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "east": { "texture": "#emerald_octagon", "uv": [ 0, 0, 5, 16 ] },
+                "south": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "west": { "texture": "#emerald_octagon", "uv": [ 0, 0, 5, 16 ] },
+                "up": { "texture": "#emerald_octagon", "uv": [ 1, 11, 7, 16 ] },
+                "down": { "texture": "#emerald_octagon", "uv": [ 3, 0, 9, 5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 4.8, 0, 7.1 ], 
+            "to": [ 10.8, 16, 16.1 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "east": { "texture": "#emerald_octagon", "uv": [ 0, 0, 9, 16 ] },
+                "south": { "texture": "#emerald_octagon", "uv": [ 0, 0, 6, 16 ] },
+                "west": { "texture": "#emerald_octagon", "uv": [ 0, 0, 9, 16 ] },
+                "up": { "texture": "#emerald_octagon", "uv": [ 4, 7, 10, 16 ] },
+                "down": { "texture": "#emerald_octagon", "uv": [ 9, 0, 15, 9 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 11.7, 0, 4.2 ], 
+            "to": [ 15.7, 16, 11.7 ], 
+            "faces": {
+                "north": { "texture": "#emerald_octagon", "uv": [ 0, 0, 4, 16 ] },
+                "east": { "texture": "#emerald_octagon", "uv": [ 0, 0, 7.5, 16 ] },
+                "south": { "texture": "#emerald_octagon", "uv": [ 0, 0, 4, 16 ] },
+                "west": { "texture": "#emerald_octagon", "uv": [ 0, 0, 7.5, 16 ] },
+                "up": { "texture": "#emerald_octagon", "uv": [ 12, 1, 16, 8.5 ] },
+                "down": { "texture": "#emerald_octagon", "uv": [ 12, 2, 16, 9.5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0.3, 0, 4.3 ], 
+            "to": [ 5.3, 16, 11.7 ], 
+            "faces": {
+                "north": { "texture": "#emerald_octagon", "uv": [ 0, 0, 5, 16 ] },
+                "east": { "texture": "#emerald_octagon", "uv": [ 0, 0, 7.4, 16 ] },
+                "south": { "texture": "#emerald_octagon", "uv": [ 0, 0, 5, 16 ] },
+                "west": { "texture": "#emerald_octagon", "uv": [ 0, 0, 7.4, 16 ] },
+                "up": { "texture": "#emerald_octagon", "uv": [ 0, 5, 5, 12.4 ] },
+                "down": { "texture": "#emerald_octagon", "uv": [ 0, 8, 5, 15.4 ] }
+            }
+        }
+    ]
+}

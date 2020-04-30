@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "blockpocalypse:blocks/stone_rune_rock_ends",
+    "side": "blockpocalypse:blocks/stone_rune_rock"
+  }
+}

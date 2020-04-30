@@ -1,0 +1,8 @@
+
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "blockpocalypse:blocks/aztec_guardian_block_top",
+        "side": "blockpocalypse:blocks/aztec_guardian_block_front"
+    }
+}

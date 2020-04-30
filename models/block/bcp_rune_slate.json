@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "blockpocalypse:blocks/bcp_rune_slate_ends",
+    "side": "blockpocalypse:blocks/bcp_rune_slate"
+  }
+}
